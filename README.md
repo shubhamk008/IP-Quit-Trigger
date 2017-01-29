@@ -1,10 +1,13 @@
 # IP-Quit-Trigger
 
-#### ARGUMENTS:
+#### Installation(s):
+
+* fping: Click [here](https://github.com/schweikert/fping) to visit fping's GitHub page.
+
+#### Arguments:
 Argument 1: Byte 1,2 & 3 in decimal [0-255].[0-255].[0-255]</br>
 Argument 2: Byte 4 starting address in decimal [0-255]</br>
 Argument 3: Byte 4 ending address in decimal [0-255]</br>
-</br>
 #### Example:
 ```$ sh prototype.sh 192.168.0 100 110```</br></br>
 This will inspect for IPs:</br>
