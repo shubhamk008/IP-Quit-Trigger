@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #________________________________________________________________
-# ADDRESS:
+# ARGUMENTS:
 # Argument 1: Byte 1,2 & 3 in decimal [0-255].[0-255].[0-255] 
 # Argument 2: Byte 4 starting address in decimal [0-255]
 # Argument 3: Byte 4 ending address in decimal [0-255]
