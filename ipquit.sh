@@ -14,7 +14,7 @@
 > allping.txt
 for ((i=$2;i<=$3;i++))
 do
-fping -t 5 $1"."$i >> allping.txt
+fping -t 50 $1"."$i >> allping.txt
 echo "Inspecting IP: " $1"."$i
 done
 
