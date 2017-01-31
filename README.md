@@ -1,14 +1,14 @@
 # IP-Quit-Trigger
 
-#### Installation(s):
+####:package: Package(s) to install:
 
 * fping: Click [here](http://fping.org) to visit fping's website.
 
-#### Arguments:
+####:heavy_plus_sign: Arguments:
 Argument 1: Byte 1,2 & 3 in decimal [0-255].[0-255].[0-255]</br>
 Argument 2: Byte 4 starting address in decimal [0-255]</br>
 Argument 3: Byte 4 ending address in decimal [0-255]</br>
-#### Example:
+####:triangular_flag_on_post: Example:
 ```$ sh ipquit.sh 192.168.0 100 110```</br></br>
 This will inspect for IPs:</br>
 >192.168.0.100</br>
@@ -23,7 +23,7 @@ This will inspect for IPs:</br>
 192.168.0.109</br>
 192.168.0.110
 
-#### Screenshots:
+####:mag_right: Screenshots:
 
 ![Alttext](https://github.com/shubhamk008/IP-Quit-Trigger/raw/master/Screenshots/1.png "Screen 1")
 ![Alttext](https://github.com/shubhamk008/IP-Quit-Trigger/raw/master/Screenshots/2.png "Screen 2")
