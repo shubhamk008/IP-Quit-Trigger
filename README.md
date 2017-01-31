@@ -10,8 +10,8 @@ Argument 2: Byte 4 starting address in decimal [0-255]</br>
 Argument 3: Byte 4 ending address in decimal [0-255]</br>
 #### Example:
 ```$ sh ipquit.sh 192.168.0 100 110```</br></br>
->This will inspect for IPs:</br>
-192.168.0.100</br>
+This will inspect for IPs:</br>
+>192.168.0.100</br>
 192.168.0.101</br>
 192.168.0.102</br>
 192.168.0.103</br>
