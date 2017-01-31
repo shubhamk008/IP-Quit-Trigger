@@ -2,7 +2,7 @@
 
 #### Installation(s):
 
-* fping: Click [here](https://github.com/schweikert/fping) to visit fping's GitHub page.
+* fping: Click [here](http://fping.org) to visit fping's GitHub page.
 
 #### Arguments:
 Argument 1: Byte 1,2 & 3 in decimal [0-255].[0-255].[0-255]</br>
