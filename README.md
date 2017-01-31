@@ -18,8 +18,8 @@ Range: sh ipquit.sh [0-255].[0-255].[0-255] [0-255] [0-255]
 1. Test devices connected to network by running the script. They shall show up in the 'Active IPs' section.
 2. Connect a new device to the network. The corresponding IP address will now show up in the 'Active IPs' section.
 3. Disconnect the new device from the network and run the script again.
-4. You will now see that device's IP address & MAC address listed in the 'Trigger IPs' & 'Trigger MACs' section.
-5. Edit the commented portion of the script to take desired relevant action over those IP addresses & MAC addresses.
+4. You will now see that device's IP address & MAC address are listed in the 'Trigger IPs' & 'Trigger MACs' section.
+5. Edit the commented portion of the script to take desired  action over those IP addresses & MAC addresses.
 6. Rerun the script and now the disconneted device will disappear from all sections.
 
 ####:triangular_flag_on_post: Example:
