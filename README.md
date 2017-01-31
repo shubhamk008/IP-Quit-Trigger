@@ -9,7 +9,8 @@
 Arguments are IPv4 address fields. To test your IP, check your current IP address.</br>
 Then provide arguments as the starting & ending IP to scan. These boundary values allow multiple IPs to be pinged & monitored. Say your connected device has the IP 192.168.0.103 . You could test all devices of interest having IPs ranging from 192.168.0.100 to 192.168.0.110 like this:</br>
 
->sh ipquit.sh 192.168.0 100 110
+>sh ipquit.sh 192.168.0 100 110</br>
+
 Range: sh ipquit.sh [0-255].[0-255].[0-255] [0-255] [0-255]
 
 ####:scroll: Instructions: 
