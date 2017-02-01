@@ -15,7 +15,7 @@ Range: sh ipquit.sh [0-255].[0-255].[0-255] [0-255] [0-255]
 
  Running macOS/UNIX?
 
-Simply find and change line: "arp -a $line >> deadIPtoMAC.txt" to "arp $line >> deadIPtoMAC.txt"
+Simply find and change line: `arp -a $line >> deadIPtoMAC.txt` to `arp $line >> deadIPtoMAC.txt`
 
 ####:scroll: Instructions: 
 
