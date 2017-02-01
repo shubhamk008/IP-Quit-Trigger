@@ -13,6 +13,10 @@ Then provide arguments as the **starting & ending IP** to scan. These boundary v
 
 Range: sh ipquit.sh [0-255].[0-255].[0-255] [0-255] [0-255]
 
+ Running macOS/UNIX?
+
+Simply find and change line: "arp -a $line >> deadIPtoMAC.txt" to "arp $line >> deadIPtoMAC.txt"
+
 ####:scroll: Instructions: 
 
 1. Test devices connected to network by running the script. They shall show up in the 'Active IPs' section.
