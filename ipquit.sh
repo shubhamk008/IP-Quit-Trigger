@@ -26,7 +26,7 @@ done
 > aliveIPtemp.txt
 grep "alive" allping.txt > aliveIPtemp.txt
 > aliveIP.txt
-grep -oh .*".".*".".*".".*.[0-9].[0-9].[0-9] aliveIPtemp.txt > aliveIP.txt
+grep -oh .*".".*".".*".".*... aliveIPtemp.txt > aliveIP.txt
 
 touch aliveIPhist.txt deadIP.txt
 comm -13 aliveIP.txt aliveIPhist.txt > deadIP.txt
@@ -50,7 +50,7 @@ cp aliveIP.txt aliveIPhist.txt
 
 > deadIPtoMAC.txt
 while read -r line; do
-arp $line >> deadIPtoMAC.txt
+arp -a $line >> deadIPtoMAC.txt
 done < deadIP.txt
 
 > deadMAC.txt
