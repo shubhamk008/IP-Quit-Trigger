@@ -1,5 +1,11 @@
 # IP-Quit-Trigger
 
+### Branch Features:
+* Regex Update
+* Multiple process @ background
+* Very fast
+* Versobe output
+
 ####:package: Package(s) necessary:
 
 * fping: Click [here](http://fping.org) to visit fping's website.
