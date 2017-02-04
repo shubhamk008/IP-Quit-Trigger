@@ -2,9 +2,9 @@
 
 ### Branch Features:
 * Regex Update
-* Multiple process @ background
-* Very fast
+* Multiple processes @ background
 * Versobe output
+* Much faster
 
 ####:package: Package(s) necessary:
 
