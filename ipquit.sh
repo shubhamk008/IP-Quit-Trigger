@@ -50,7 +50,7 @@ cp aliveIP.txt aliveIPhist.txt
 
 > deadIPtoMAC.txt
 while read -r line; do
-arp -a $line >> deadIPtoMAC.txt
+arp -n $line >> deadIPtoMAC.txt
 done < deadIP.txt
 
 > deadMAC.txt
